@@ -3,9 +3,7 @@
 
   $(".captcha").click(function (e) {
     e.preventDefault();
-
     var csrf_fg = $('input[name="csrf_fg"]').val();
-
     $.ajax({
       url: "contact-form/ajax",
       type: "POST",
