@@ -796,7 +796,6 @@ class Setting extends CI_Controller
 			redirect(base_url(BACKEND.'setting'));
 		}
 
-
 		$data['setting'] = $this->Model_common->get_setting_data();
 
 		$this->load->view(BACKEND.'header', $data);
