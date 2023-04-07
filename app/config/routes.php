@@ -65,6 +65,7 @@ $route['backend'] = 'backend/account/login';
 $route['news/(:num)/(:any)'] = FRONTEND.'news/view/$1/$2';
 $route['news/(:num)'] = FRONTEND.'news/view/$1';
 $route['news'] = FRONTEND.'news';
+$route['search'] = FRONTEND.'search';
 $route['about'] = FRONTEND.'about';
 $route['team'] = FRONTEND.'team';
 $route['photo-gallery'] = FRONTEND.'photo-gallery';

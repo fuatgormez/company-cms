@@ -301,3 +301,5 @@ ERROR - 2023-04-07 14:32:16 --> 404 Page Not Found: Public/uploads
 ERROR - 2023-04-07 14:33:03 --> 404 Page Not Found: Public/uploads
 ERROR - 2023-04-07 14:34:20 --> 404 Page Not Found: Public/uploads
 ERROR - 2023-04-07 14:53:28 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 15:00:40 --> 404 Page Not Found: Search/index
+ERROR - 2023-04-07 15:01:11 --> 404 Page Not Found: Public/uploads
