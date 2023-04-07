@@ -1,6 +1,6 @@
 <?php
 if(!$this->session->userdata('id')) {
-    redirect(base_url().'admin');
+    redirect(base_url('backend'));
 }
 ?>
 <section class="content-header">

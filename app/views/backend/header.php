@@ -142,12 +142,16 @@
 			          </a>
 			        </li>
 					<?php if( $this->session->userdata('role') == 'Administrator' ): ?>
+			        <li class="treeview <?php if( $class_name == 'contact' ) {echo 'active';} ?>">
+			          <a href="<?php echo base_url('backend/contact'); ?>">
+			            <i class="fa fa-warning"></i> <span>Contact</span>
+			          </a>
+			        </li>
 			        <li class="treeview <?php if( ($class_name == 'setting') ) {echo 'active';} ?>">
 			          <a href="<?php echo base_url(); ?>backend/setting">
 			            <i class="fa fa-cog"></i> <span>Settings</span>
 			          </a>
 			        </li>
-
 			        <li class="treeview <?php if( ($class_name == 'page') ) {echo 'active';} ?>">
 			          <a href="<?php echo base_url(); ?>backend/page">
 			            <i class="fa fa-file-text"></i> <span>Page</span>

@@ -303,3 +303,164 @@ ERROR - 2023-04-07 14:34:20 --> 404 Page Not Found: Public/uploads
 ERROR - 2023-04-07 14:53:28 --> 404 Page Not Found: Public/uploads
 ERROR - 2023-04-07 15:00:40 --> 404 Page Not Found: Search/index
 ERROR - 2023-04-07 15:01:11 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 16:10:51 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 16:11:56 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 16:12:29 --> 404 Page Not Found: Public/frontend
+ERROR - 2023-04-07 16:12:35 --> Severity: Notice --> Undefined index: setting /Users/fuatgormez/Sites/localhost/firma/app/controllers/frontend/Contact.php 88
+ERROR - 2023-04-07 16:12:35 --> Severity: Notice --> Trying to access array offset on value of type null /Users/fuatgormez/Sites/localhost/firma/app/controllers/frontend/Contact.php 88
+ERROR - 2023-04-07 16:12:35 --> Severity: Notice --> Undefined index: setting /Users/fuatgormez/Sites/localhost/firma/app/controllers/frontend/Contact.php 89
+ERROR - 2023-04-07 16:12:35 --> Severity: Notice --> Trying to access array offset on value of type null /Users/fuatgormez/Sites/localhost/firma/app/controllers/frontend/Contact.php 89
+ERROR - 2023-04-07 16:12:36 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 17:29:05 --> 404 Page Not Found: Admin/index
+ERROR - 2023-04-07 17:29:39 --> Severity: Notice --> Undefined index: firstname /Users/fuatgormez/Sites/localhost/firma/app/controllers/backend/Account.php 74
+ERROR - 2023-04-07 17:29:39 --> Severity: Notice --> Undefined index: lastname /Users/fuatgormez/Sites/localhost/firma/app/controllers/backend/Account.php 75
+ERROR - 2023-04-07 17:31:36 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) /Users/fuatgormez/Sites/localhost/firma/app/views/backend/header.php 290
+ERROR - 2023-04-07 17:33:00 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) /Users/fuatgormez/Sites/localhost/firma/app/views/backend/header.php 290
+ERROR - 2023-04-07 17:35:10 --> Severity: error --> Exception: Unable to locate the model you have specified: Model_contact /Users/fuatgormez/Sites/localhost/firma/source/core/Loader.php 349
+ERROR - 2023-04-07 17:36:00 --> Severity: error --> Exception: Unable to locate the model you have specified: Model_contact /Users/fuatgormez/Sites/localhost/firma/source/core/Loader.php 349
+ERROR - 2023-04-07 17:36:01 --> Severity: error --> Exception: Unable to locate the model you have specified: Model_contact /Users/fuatgormez/Sites/localhost/firma/source/core/Loader.php 349
+ERROR - 2023-04-07 17:36:01 --> Severity: error --> Exception: Unable to locate the model you have specified: Model_contact /Users/fuatgormez/Sites/localhost/firma/source/core/Loader.php 349
+ERROR - 2023-04-07 17:36:01 --> Severity: error --> Exception: Unable to locate the model you have specified: Model_contact /Users/fuatgormez/Sites/localhost/firma/source/core/Loader.php 349
+ERROR - 2023-04-07 17:36:01 --> Severity: error --> Exception: Unable to locate the model you have specified: Model_contact /Users/fuatgormez/Sites/localhost/firma/source/core/Loader.php 349
+ERROR - 2023-04-07 17:36:02 --> Severity: error --> Exception: Unable to locate the model you have specified: Model_contact /Users/fuatgormez/Sites/localhost/firma/source/core/Loader.php 349
+ERROR - 2023-04-07 17:37:09 --> Severity: Notice --> Undefined variable: i /Users/fuatgormez/Sites/localhost/firma/app/views/backend/contact/contact.php 46
+ERROR - 2023-04-07 17:37:09 --> Severity: Notice --> Undefined variable: i /Users/fuatgormez/Sites/localhost/firma/app/views/backend/contact/contact.php 46
+ERROR - 2023-04-07 17:37:09 --> Severity: Notice --> Undefined variable: i /Users/fuatgormez/Sites/localhost/firma/app/views/backend/contact/contact.php 46
+ERROR - 2023-04-07 17:37:09 --> Severity: Notice --> Undefined variable: i /Users/fuatgormez/Sites/localhost/firma/app/views/backend/contact/contact.php 46
+ERROR - 2023-04-07 17:37:09 --> Severity: Notice --> Undefined variable: i /Users/fuatgormez/Sites/localhost/firma/app/views/backend/contact/contact.php 46
+ERROR - 2023-04-07 18:01:15 --> Severity: error --> Exception: Call to undefined method Model_contact::contact_check() /Users/fuatgormez/Sites/localhost/firma/app/controllers/backend/Contact.php 27
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:03:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:04:28 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:04:28 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:04:42 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> Severity: Warning --> unlink(./public/uploads/banner_about.jpg): No such file or directory /Users/fuatgormez/Sites/localhost/firma/app/controllers/backend/Setting.php 308
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:06:04 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:06:34 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:06:34 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:11:49 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> Severity: Warning --> unlink(./public/uploads/banner_faq.jpg): No such file or directory /Users/fuatgormez/Sites/localhost/firma/app/controllers/backend/Setting.php 341
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:24 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:32 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:36 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:12:36 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:12:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> Severity: Warning --> unlink(./public/uploads/banner_testimonial.jpg): No such file or directory /Users/fuatgormez/Sites/localhost/firma/app/controllers/backend/Setting.php 407
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:30 --> 404 Page Not Found: Public/backend
+ERROR - 2023-04-07 18:13:40 --> Severity: Warning --> unlink(./public/uploads/banner_service.jpg): No such file or directory /Users/fuatgormez/Sites/localhost/firma/app/controllers/backend/Setting.php 374
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:13:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2023-04-07 18:15:04 --> 404 Page Not Found: Service/view

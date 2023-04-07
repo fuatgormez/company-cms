@@ -6,10 +6,10 @@ if(!$this->session->userdata('id')) {
 
 <section class="content-header">
 	<div class="content-header-left">
-		<h1>View Clients</h1>
+		<h1>View Contacts</h1>
 	</div>
 	<div class="content-header-right">
-		<a href="<?php echo base_url('backend/client/add'); ?>" class="btn btn-primary btn-sm">Add Client</a>
+		<a href="<?php echo base_url('backend/contact'); ?>" class="btn btn-primary btn-sm">All Contact Message</a>
 	</div>
 </section>
 
@@ -32,32 +32,27 @@ if(!$this->session->userdata('id')) {
 					<table id="example1" class="table table-bordered table-striped">
 						<thead>
 							<tr>
-								<th width="30">SL</th>
-								<th>Photo</th>
-								<th width="100">Name</th>
-								<th width="100">URL</th>
-								<th width="80">Action</th>
+								<th width="10">SL</th>
+								<th width="80">Name</th>
+								<th width="80">Email</th>
+								<th width="100">Subject</th>
+								<th width="100">Message</th>
+								<th width="10">Action</th>
 							</tr>
 						</thead>
 						<tbody>
-							<?php
-							$i=0;							
-							foreach ($client as $row) {
-								$i++;
-								?>
+							<?php foreach ($contact_messages as $key => $row):?>
 								<tr>
-									<td><?php echo $i; ?></td>
-									<td style="width:130px;"><img src="<?php echo base_url('public/uploads/client/'.$row['photo']); ?>" alt="<?php echo $row['name']; ?>" style="width:120px;"></td>
+									<td><?php echo $key+1; ?></td>
 									<td><?php echo $row['name']; ?></td>
-									<td><?php echo $row['url']; ?></td>
-									<td>										
-										<a href="<?php echo base_url('backend/client/edit/'.$row['id']); ?>" class="btn btn-primary btn-xs">Edit</a>
-										<a href="<?php echo base_url('backend/client/delete/'.$row['id']); ?>" class="btn btn-danger btn-xs" onClick="return confirm('Are you sure?');">Delete</a>
+									<td><?php echo $row['email']; ?></td>
+									<td><?php echo $row['subject']; ?></td>
+									<td><?php echo $row['message']; ?></td>
+									<td>
+										<a href="<?php echo base_url('backend/contact/delete/'.$row['id']); ?>" class="btn btn-danger btn-xs" onClick="return confirm('Are you sure?');">Delete</a>
 									</td>
 								</tr>
-								<?php
-							}
-							?>							
+							<?php endforeach;?>
 						</tbody>
 					</table>
 				</div>
