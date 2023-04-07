@@ -1,6 +1,6 @@
 <?php
 if(!$this->session->userdata('id')) {
-	redirect(base_url().'admin');
+	redirect(base_url(BACKEND));
 }
 ?>
 
@@ -9,7 +9,7 @@ if(!$this->session->userdata('id')) {
 		<h1>View News</h1>
 	</div>
 	<div class="content-header-right">
-		<a href="<?php echo base_url('backend/news/add'); ?>" class="btn btn-primary btn-sm">Add New</a>
+		<a href="<?php echo base_url(BACKEND.'news/add'); ?>" class="btn btn-primary btn-sm">Add New</a>
 	</div>
 </section>
 <section class="content">
@@ -40,31 +40,25 @@ if(!$this->session->userdata('id')) {
 							</tr>
 						</thead>
 						<tbody>
-							<?php
-							$i=0;
-							foreach ($news as $row) {
-								$i++;
-								?>
+							<?php foreach ($news as $key => $row):?>
 								<tr>
-									<td><?php echo $i; ?></td>
+									<td><?php echo $key+1; ?></td>
 									<td><?php echo $row['news_title']; ?></td>
 									<td>
-										<img src="<?php echo base_url(); ?>public/uploads/<?php echo $row['photo']; ?>" alt="<?php echo $row['news_title']; ?>" style="width:100px;">
+										<img src="<?php echo base_url('public/uploads/'.$row['photo']); ?>" alt="<?php echo $row['news_title']; ?>" style="width:100px;">
 									</td>
 									<td>
-										<img src="<?php echo base_url(); ?>public/uploads/<?php echo $row['banner']; ?>" alt="<?php echo $row['news_title']; ?>" style="width:180px;">
+										<img src="<?php echo base_url('public/uploads/'.$row['banner']); ?>" alt="<?php echo $row['news_title']; ?>" style="width:180px;">
 									</td>
 									<td>
 										<?php echo $row['category_name']; ?>
 									</td>
 									<td>										
-										<a href="<?php echo base_url(); ?>admin/news/edit/<?php echo $row['news_id']; ?>" class="btn btn-primary btn-xs">Edit</a>
-										<a href="<?php echo base_url(); ?>admin/news/delete/<?php echo $row['news_id']; ?>" class="btn btn-danger btn-xs" onClick="return confirm('Are you sure?');">Delete</a>  
+										<a href="<?php echo base_url(BACKEND.'news/edit/'.$row['news_id']); ?>" class="btn btn-primary btn-xs">Edit</a>
+										<a href="<?php echo base_url(BACKEND.'news/delete/'.$row['news_id']); ?>" class="btn btn-danger btn-xs" onClick="return confirm('Are you sure?');">Delete</a>  
 									</td>
 								</tr>
-								<?php
-							}
-							?>							
+							<?php endforeach;?>							
 						</tbody>
 					</table>
 				</div>

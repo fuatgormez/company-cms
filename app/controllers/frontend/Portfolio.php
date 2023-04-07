@@ -96,12 +96,9 @@ class Portfolio extends CI_Controller {
 
 				$this->email->from($data['setting']['send_email_from']);
 				$this->email->to($data['setting']['receive_email_to']);
-
 				$this->email->subject('Portfolio Page Email');
 				$this->email->message($msg);
-
 				$this->email->set_mailtype("html");
-
 				$this->email->send();
 
 		        $success = 'Thank you for sending the email. We will reply you shortly.';

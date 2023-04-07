@@ -58,7 +58,7 @@
                 ?>
                 <div class="row">
                     <div class="col-md-12" style="margin-top:30px;text-align: center;">
-                        <?php echo $links; ?>
+                        amk<?php echo $links; ?>
                     </div>
                 </div>
                 

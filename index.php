@@ -235,10 +235,6 @@ switch (ENVIRONMENT)
 	// Name of the "system" directory
 	define('SYSDIR', basename(BASEPATH));
 
-	// Name of the "view folder" prefix
-	define('BACKEND', 'backend'.DIRECTORY_SEPARATOR);
-	define('FRONTEND', 'frontend'.DIRECTORY_SEPARATOR);
-	define('MAINTENANCE', 'maintenance'.DIRECTORY_SEPARATOR);
 
 	// The path to the "application" directory
 	if (is_dir($application_folder))
@@ -272,6 +268,11 @@ switch (ENVIRONMENT)
 	}
 
 	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
+
+	// Name of the "view folder" prefix
+	define('BACKEND', 'backend'.DIRECTORY_SEPARATOR);
+	define('FRONTEND', 'frontend'.DIRECTORY_SEPARATOR);
+	define('MAINTENANCE', 'maintenance'.DIRECTORY_SEPARATOR);
 
 	// The path to the "views" directory
 	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))

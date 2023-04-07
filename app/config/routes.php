@@ -62,6 +62,9 @@ $route['backend'] = 'backend/account/login';
 
 
 //Frontend
+$route['news/(:num)/(:any)'] = FRONTEND.'news/view/$1/$2';
+$route['news/(:num)'] = FRONTEND.'news/view/$1';
+$route['news'] = FRONTEND.'news';
 $route['about'] = FRONTEND.'about';
 $route['team'] = FRONTEND.'team';
 $route['photo-gallery'] = FRONTEND.'photo-gallery';
@@ -70,3 +73,5 @@ $route['portfolio'] = FRONTEND.'portfolio';
 $route['contact'] = FRONTEND.'contact';
 $route['impressum'] = FRONTEND.'impressum';
 $route['datenschutz'] = FRONTEND.'datenschutz';
+$route['contact-form'] = FRONTEND.'contact/form';
+$route['contact-form/ajax'] = FRONTEND.'contact/ajax_captcha';

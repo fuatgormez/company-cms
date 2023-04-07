@@ -57,15 +57,13 @@
             <div class="col-12">
                 <div class="contact-form headstyle pt_90">
                     <h4><?php echo CONTACT_FORM; ?></h4>
-                    <?php
-                    if($this->session->flashdata('error')) {
-                        echo '<div class="error-class">'.$this->session->flashdata('error').'</div>';
-                    }
-                    if($this->session->flashdata('success')) {
-                        echo '<div class="success-class">'.$this->session->flashdata('success').'</div>';
-                    }
-                    ?>
-                    <?php echo form_open(base_url().'contact/send_email',array('class' => '')); ?>
+                    <?php if($this->session->flashdata('error')):?>
+                        <div class="error-class"><?php echo $this->session->flashdata('error');?></div>
+                    <?php endif;?>
+                    <?php if($this->session->flashdata('success')):?>
+                        <div class="success-class"><?php echo $this->session->flashdata('success');?></div>
+                    <?php endif;?>
+                    <?php echo form_open(base_url('contact-form'),array('class' => '')); ?>
                         <div class="form-row row">
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" placeholder="<?php echo NAME; ?>" name="name" required>
@@ -81,6 +79,19 @@
                             </div>
                             <div class="form-group col-12">
                                 <textarea class="form-control" placeholder="<?php echo MESSAGE; ?>" name="message" required></textarea>
+                            </div>
+                            <div class="form-group col-12">
+                                <div class="row">
+                                    <div class="col-2" id="captcha">
+                                        <?php echo $captcha; ?>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="#" class="btn captcha">Refresh</a>
+                                    </div>
+                                    <div class="col-8">
+                                        <input class="form-control" placeholder="<?php echo $this->session->userdata('captchaword');?>" name="captcha" required></input>
+                                    </div>
+                                </div>
                             </div>
                             <div class="form-group col-12">
                                 <button type="submit" class="btn btn-block" name="form_contact"><?php echo SEND_MESSAGE; ?></button>

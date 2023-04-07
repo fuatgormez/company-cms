@@ -26,7 +26,7 @@
         </div>
         <div class="row filtr-container">
             <?php foreach ($portfolio as $row): ?>
-                <div class="col-lg-4 col-md-6 filter-item" data-category="<?php echo $row['category_id']; ?>" data-sort="Menu">
+                <div class="col-lg-4 col-md-6 filtr-item" data-category="<?php echo $row['category_id']; ?>" data-sort="Menu">
                     <div class="portfolio-group">
                         <div class="portfolio-photo" style="background-image: url(<?php echo base_url('public/uploads/portfolio/'.$row['photo']); ?>)">
                             <div class="portfolio-bg"></div>
@@ -45,4 +45,4 @@
         </div>
     </div>
 </div>
-<!--Project End
+<!--Project End-->

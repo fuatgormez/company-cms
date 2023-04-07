@@ -5,9 +5,9 @@ class News extends CI_Controller {
 	function __construct()
 	{
         parent::__construct();
-        $this->load->model(BACKEND.'Model_common');
-        $this->load->model(BACKEND.'Model_news');
-        $this->load->model(BACKEND.'Model_portfolio');
+        $this->load->model(FRONTEND.'Model_common');
+        $this->load->model(FRONTEND.'Model_news');
+        $this->load->model(FRONTEND.'Model_portfolio');
     }
 
 	public function index()
@@ -16,7 +16,7 @@ class News extends CI_Controller {
 		$data['page_home'] = $this->Model_common->all_page_home();
 		$data['page_news'] = $this->Model_common->all_page_news();
 		$data['comment'] = $this->Model_common->all_comment();
-		$data['social'] = $this->Model_common->all_social();
+		$data['socials'] = $this->Model_common->all_social();
 		$data['all_news'] = $this->Model_common->all_news();
 		$data['all_categories'] = $this->Model_common->all_categories();
         $data['page_contact'] = $this->Model_common->all_page_contact();
@@ -41,9 +41,9 @@ class News extends CI_Controller {
 	    $config['last_tag_open']    = '<li class="page-item"><span class="page-link">';
 	    $config['last_tag_close']  = '</span></li>';
 
-        $config["base_url"] = base_url('news/index');
+        $config["base_url"] = base_url(FRONTEND.'news/index');
         $config["total_rows"] = $this->Model_news->get_total_news();
-        $config['first_url'] = base_url('news');
+        $config['first_url'] = base_url(FRONTEND.'news');
         $config["per_page"] = 10;
         $config["uri_segment"] = 3;
         $config['use_page_numbers'] = TRUE;
@@ -53,6 +53,7 @@ class News extends CI_Controller {
         $offset = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
         $data['news_fetched'] = $this->Model_news->fetch_news($config["per_page"], $offset);
         $data['links'] = $this->pagination->create_links();
+		
 		
 		$this->load->view(FRONTEND.'header',$data);
 		$this->load->view(FRONTEND.'news',$data);

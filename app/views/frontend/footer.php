@@ -92,40 +92,32 @@
                         <div class="footer-item">
                             <h3><?php echo $setting['footer_col3_title']; ?></h3>
                             <div class="row pl-10 pr-10">
-                                <?php
-                                $i=0;
-                                foreach($portfolio_footer as $row) {
-                                    $i++;
-                                    if($i > $setting['footer_recent_portfolio_item']) {
-                                        break;
-                                    }
-                                    ?>
+                                <?php foreach($portfolio_footer as $key => $row):?>
+                                    <?php if($key++ > $setting['footer_recent_portfolio_item']) {break;}?>
                                     <div class="col-4 footer-project">
-                                        <a href="<?php echo base_url(); ?>portfolio/view/<?php echo $row['id']; ?>"><img src="<?php echo base_url(); ?>public/uploads/<?php echo $row['photo']; ?>" alt="Project Photo"></a>
+                                        <a href="<?php echo base_url('portfolio/view/'.$row['id']); ?>">
+                                            <img src="<?php echo base_url('public/uploads/portfolio/'.$row['photo']); ?>" alt="Portfolio Photo">
+                                        </a>
                                     </div>
-                                    <?php
-                                }
-                                ?>
+                                <?php endforeach; ?>
                             </div>
                         </div>
                     </div>
                 <!-- ./portfolio -->
-
             </div>
         </div>
     </div>
-
 
         <div class="footer-bottom">
             <div class="container">
                 <div class="outer-box">
                     <div class="copyright-text">
-                        <p>Copyright© All Rights Reserved | <?php echo $setting['footer_copyright']; ?></p>
+                        <p> <?php echo $setting['footer_copyright']; ?></p>
                     </div>
                     <div class="footer-menu-bottom">
                         <ul>
-                            <li><a href="<?php echo base_url(); ?>impressum">Impressum</a></li>
-                            <li><a href="<?php echo base_url(); ?>datenschutz">Datenschutz</a></li>
+                            <li><a href="<?php echo base_url('impressum'); ?>">Impressum</a></li>
+                            <li><a href="<?php echo base_url('datenschutz'); ?>">Datenschutz</a></li>
                         </ul>
                     </div>
                 </div>
