@@ -128,9 +128,7 @@ class Setting extends CI_Controller
 				$final_name = 'loader' . '.' . $ext;
 				move_uploaded_file($path_tmp, './public/uploads/' . $final_name);
 
-				$form_data = array(
-					'loader' => $final_name
-				);
+				$form_data = array('loader' => $final_name);
 				$this->Model_setting->update($form_data);
 
 				$success = 'Loader is updated successfully!';
