@@ -68,6 +68,32 @@
 			border-top-width: 1px!important;
 		}
 
+		/*
+		-------------------------------
+		Preloader
+		-------------------------------
+		*/
+		#preloader {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #fff;
+			z-index: 999999;
+		}
+
+		#status {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin: -100px 0 0 -100px;
+		}
+
 	</style>
 
 
@@ -75,11 +101,13 @@
 </head>
 
 <body class="hold-transition fixed skin-blue sidebar-mini">
-
+<!--Preloader Start-->
+	<div id="preloader">
+        <div id="status" style="background-image: url(<?php echo base_url('public/uploads/'.$setting['loader']); ?>)"></div>
+    </div>
+<!--Preloader End-->
 	<div class="wrapper">
-
 		<header class="main-header">
-
 			<a href="<?php echo base_url(); ?>backend/dashboard" class="logo">
 				<span class="logo-lg">FG CMS</span>
 			</a>
